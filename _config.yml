@@ -1,0 +1,20 @@
+title: Your Title Here
+description: ''
+baseurl: ''
+url: ''
+author: Copyright &copy; 2019 - Start Bootstrap
+lang: en_US
+safe: true
+markdown: kramdown
+sass:
+  indentWidth: 4
+  style: compressed
+  precision: 10
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - build-in-docker.sh
+  - README.md
